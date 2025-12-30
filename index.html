@@ -94,41 +94,85 @@
     </p>
 
     <h2>Mitigasi Pencegahan</h2>
-    <p>
-      Untuk mengurangi risiko serangan ransomware, organisasi perlu menerapkan berbagai
-      langkah mitigasi dengan prioritas tinggi. Dari sisi teknis, penerapan autentikasi
-      multi-faktor (MFA) pada seluruh akses jarak jauh, seperti VPN dan akun administrator,
-      menjadi langkah wajib guna mencegah penyalahgunaan kredensial.
-    </p>
 
-    <p>
-      Selain itu, pemantauan kredensial secara berkala perlu dilakukan untuk mendeteksi
-      kebocoran data akun, disertai dengan rotasi kata sandi dan penonaktifan akun yang tidak
-      lagi digunakan. Penerapan segmentasi jaringan antara sistem IT dan OT juga penting untuk
-      membatasi pergerakan lateral penyerang.
-    </p>
+<p>
+  Untuk mengurangi risiko serangan ransomware, terdapat sejumlah langkah mitigasi
+  yang dapat diterapkan dengan tingkat prioritas tinggi. Dari sisi teknis,
+  penerapan autentikasi multi-faktor (Multi-Factor Authentication/MFA) pada seluruh
+  akses jarak jauh, seperti VPN dan akun administrator, menjadi langkah wajib guna
+  mencegah penyalahgunaan kredensial.
+</p>
 
-    <p>
-      Organisasi disarankan memiliki sistem pencadangan data secara offline atau terisolasi
-      (air-gapped) yang diuji secara berkala. Proses patching dan manajemen kerentanan harus
-      dilakukan secara rutin, dengan memprioritaskan pembaruan kritis. Penggunaan sistem
-      logging, endpoint detection and response (EDR), serta sistem deteksi intrusi diperlukan
-      untuk mempercepat identifikasi aktivitas mencurigakan.
-    </p>
+<p>
+  Selain itu, pemantauan kredensial secara berkala perlu dilakukan untuk mendeteksi
+  kebocoran data akun, disertai dengan rotasi kata sandi, penerapan kebijakan kata
+  sandi yang kuat, serta penonaktifan akun yang tidak lagi digunakan atau tidak
+  aktif.
+</p>
 
-    <p>
-      Dari sisi kebijakan dan organisasi, diperlukan rencana respons insiden yang teruji dan
-      mencakup pembagian peran yang jelas antara tim teknis, komunikasi publik, serta koordinasi
-      dengan regulator. Latihan simulasi dan tabletop exercise secara berkala juga penting
-      untuk meningkatkan kesiapan organisasi.
-    </p>
+<p>
+  Organisasi juga perlu menerapkan prinsip <em>least privilege</em>, yaitu
+  membatasi hak akses pengguna hanya sesuai dengan kebutuhan tugasnya, guna
+  meminimalkan dampak apabila satu akun berhasil dikompromikan. Penggunaan
+  <em>privileged access management</em> (PAM) pada akun-akun kritikal juga
+  direkomendasikan untuk mengendalikan dan memantau aktivitas administrator.
+</p>
 
-    <p>
-      Sebagai catatan kebijakan, pemerintah dan lembaga terkait umumnya tidak menganjurkan
-      pembayaran tebusan karena dapat mendorong aktivitas kriminal. Oleh karena itu,
-      organisasi perlu memiliki rencana mitigasi yang matang sejak awal dan melibatkan aparat
-      penegak hukum dalam penanganan insiden siber.
-    </p>
+<p>
+  Langkah penting lainnya adalah penerapan segmentasi jaringan yang ketat antara
+  sistem teknologi informasi (IT) dan teknologi operasional (OT) untuk membatasi
+  pergerakan lateral penyerang. Segmentasi ini perlu dilengkapi dengan firewall
+  internal dan kontrol akses berbasis jaringan agar gangguan pada sistem IT tidak
+  langsung berdampak pada sistem OT yang bersifat kritikal.
+</p>
+
+<p>
+  Selain itu, organisasi disarankan memiliki sistem pencadangan data secara offline
+  atau terisolasi (<em>air-gapped backup</em>) yang diuji secara berkala guna
+  memastikan proses pemulihan dapat berjalan dengan baik tanpa bergantung pada
+  pembayaran tebusan. Proses pencadangan ini harus mencakup data, konfigurasi sistem,
+  serta dokumentasi operasional penting.
+</p>
+
+<p>
+  Patching dan manajemen kerentanan harus dilakukan secara rutin dengan pendekatan
+  berbasis risiko, yaitu memprioritaskan pembaruan keamanan yang berdampak tinggi
+  terhadap sistem kritikal. Penggunaan sistem logging terpusat,
+  <em>endpoint detection and response</em> (EDR), serta sistem deteksi intrusi
+  (IDS/IPS) juga diperlukan untuk mempercepat identifikasi aktivitas mencurigakan,
+  seperti pergerakan lateral, eskalasi hak akses, dan eksfiltrasi data.
+</p>
+
+<p>
+  Dari sisi organisasi dan kebijakan, diperlukan rencana respons insiden yang
+  terdokumentasi dan teruji, mencakup prosedur khusus untuk menghadapi serangan
+  ransomware, termasuk isolasi sistem, pengambilan keputusan strategis, komunikasi
+  publik, serta koordinasi dengan regulator dan aparat penegak hukum.
+</p>
+
+<p>
+  Latihan tabletop dan simulasi serangan siber secara berkala penting dilakukan
+  untuk meningkatkan kesiapan seluruh pihak, mulai dari tim teknis hingga manajemen
+  puncak. Selain itu, peningkatan kesadaran keamanan siber
+  (<em>security awareness training</em>) bagi karyawan perlu menjadi kebijakan
+  rutin, mengingat banyak serangan ransomware diawali melalui phishing atau
+  rekayasa sosial.
+</p>
+
+<p>
+  Evaluasi risiko terhadap pihak ketiga, termasuk vendor dan mitra bisnis, juga
+  harus dilakukan secara berkala untuk mencegah serangan melalui rantai pasok
+  (<em>supply chain attack</em>).
+</p>
+
+<p>
+  Sebagai catatan kebijakan, pemerintah dan lembaga terkait umumnya tidak
+  menganjurkan pembayaran tebusan karena dapat mendorong aktivitas kriminal dan
+  tidak menjamin pemulihan sistem secara penuh. Oleh karena itu, organisasi perlu
+  memiliki strategi ketahanan siber (<em>cyber resilience</em>) yang matang sejak
+  awal serta melibatkan aparat penegak hukum dalam penanganan insiden siber.
+</p>
+
     <h2>Disusun Oleh</h2>
     <ol>
         <li>Nur Laeli Septi Ningrum (22523028)</li>
