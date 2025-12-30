@@ -23,3 +23,12 @@ p {
   margin-bottom: 15px;
   text-align: justify;
 }
+
+ol {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 5px;
+}

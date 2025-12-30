@@ -5,67 +5,139 @@
   <title>Analisis Serangan Ransomware Colonial Pipeline</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <h1>Studi Kasus: Serangan Ransomware Colonial Pipeline (7 Mei 2021)</h1>
+  <div class="container">
 
-  <h2>Bentuk Serangan yang Terjadi</h2>
-  <p>
-    Colonial Pipeline Company adalah perusahaan pengoperasian pipa yang berkantor pusat di
-    Alpharetta, Georgia. Perusahaan ini didirikan pada tahun 1961 dan mengoperasikan sistem
-    jaringan pipa terbesar untuk produk minyak olahan di Amerika Serikat, dengan kapasitas
-    pengangkutan sekitar 3 juta barel bahan bakar per hari dari Texas ke New York.
-  </p>
+    <h1>Studi Kasus: Serangan Ransomware Colonial Pipeline (7 Mei 2021)</h1>
 
-  <p>
-    Pada tanggal 7 Mei 2021, Colonial Pipeline mengalami serangan ransomware yang dilakukan
-    oleh kelompok DarkSide. Sebagai langkah pencegahan, perusahaan secara proaktif mematikan
-    sistem teknologi informasinya untuk menahan penyebaran infeksi. Meskipun yang terdampak
-    adalah sistem IT, pihak perusahaan juga menghentikan sementara aliran pipa bensin karena
-    sistem penagihan dan monitoring ikut terganggu.
-  </p>
+    <h2>Bentuk Serangan yang Terjadi</h2>
+    <p>
+      Colonial Pipeline Company merupakan perusahaan pengoperasian pipa yang berkantor pusat
+      di Alpharetta, Georgia. Perusahaan ini didirikan pada tahun 1961 dan memulai pembangunan
+      sistem jaringan Colonial Pipeline pada tahun 1962. Sistem ini merupakan jaringan pipa
+      terbesar untuk produk minyak olahan di Amerika Serikat, yang mampu mengangkut sekitar
+      3 juta barel bahan bakar per hari dari Texas hingga New York.
+    </p>
 
-  <p>
-    Dalam serangan tersebut, pelaku meminta tebusan dalam bentuk mata uang kripto Bitcoin agar
-    sistem dapat dipulihkan dan data pelanggan tidak disebarluaskan. Colonial Pipeline akhirnya
-    membayar sekitar 75 Bitcoin dengan nilai sekitar USD 4,4 juta. Namun, Departemen Kehakiman
-    Amerika Serikat (DOJ) berhasil menyita kembali sebagian dana tebusan dengan melacak aliran
-    Bitcoin.
-  </p>
+    <p>
+      Menurut laporan dari CISA (Certified Information Systems Auditor), pada tanggal
+      7 Mei 2021 Colonial Pipeline Company mengalami serangan ransomware yang dilakukan oleh
+      kelompok DarkSide. Sebagai langkah mitigasi awal, pihak perusahaan secara proaktif
+      mematikan sistem teknologi informasinya untuk menahan penyebaran infeksi.
+    </p>
 
-  <h2>Dampak Kerugian</h2>
-  <p>
-    Dampak kerugian pertama terlihat dari sisi operasional, di mana Colonial Pipeline menghentikan
-    distribusi bahan bakar sebagai langkah pencegahan. Hal ini menyebabkan gangguan distribusi
-    bahan bakar, khususnya di wilayah Pantai Timur Amerika Serikat.
-  </p>
+    <p>
+      Meskipun sistem yang terdampak adalah sistem IT, pihak Colonial Pipeline juga menghentikan
+      sementara aliran pipa bahan bakar untuk mencegah dampak yang lebih luas, karena sistem
+      penagihan dan monitoring turut terganggu. Dalam serangan ini, pelaku meminta tebusan
+      dalam bentuk mata uang kripto Bitcoin agar sistem dapat dipulihkan dan data pelanggan
+      tidak disebarluaskan.
+    </p>
 
-  <p>
-    Dampak selanjutnya dirasakan oleh masyarakat dan sektor ekonomi, berupa antrean panjang di
-    stasiun pengisian bahan bakar, kelangkaan bensin di beberapa wilayah, serta kenaikan harga
-    bahan bakar rata-rata sekitar USD 0,04 per galon.
-  </p>
+    <p>
+      Colonial Pipeline Company akhirnya membayar tebusan sekitar 75 Bitcoin, dengan nilai
+      sekitar USD 4,4 juta atau setara dengan Rp 73,8–74 miliar. Namun, Departemen Kehakiman
+      Amerika Serikat (Department of Justice/DOJ) berhasil menyita kembali sebagian dana
+      tebusan tersebut dengan melacak aliran transaksi Bitcoin.
+    </p>
 
-  <p>
-    Dari sisi finansial, perusahaan mengalami kerugian berupa pembayaran tebusan sekitar
-    USD 4,3–4,4 juta, biaya pemulihan sistem, investigasi forensik, downtime operasional,
-    serta dampak terhadap reputasi perusahaan. Meskipun demikian, DOJ berhasil menyita kembali
-    sekitar 63,7 Bitcoin senilai kurang lebih USD 2,3 juta.
-  </p>
+    <h2>Dampak Kerugian</h2>
+    <p>
+      Dampak kerugian pertama terlihat dari sisi operasional. Colonial Pipeline memutuskan
+      untuk menghentikan sementara sistem aliran bahan bakar sebagai langkah pencegahan
+      setelah terjadinya serangan siber. Keputusan ini menyebabkan terganggunya distribusi
+      bahan bakar, khususnya di wilayah Pantai Timur Amerika Serikat.
+    </p>
 
-  <h2>Penyebab</h2>
-  <p>
-    Serangan ransomware ini terjadi akibat lemahnya keamanan pada akun Virtual Private Network
-    (VPN) yang sudah tidak aktif namun masih dapat diakses. Akun tersebut tidak dilengkapi dengan
-    mekanisme Otentikasi Multi-Faktor (MFA), sehingga memungkinkan peretas masuk hanya dengan
-    menggunakan kata sandi yang telah disusupi.
-  </p>
+    <p>
+      Dampak berikutnya dirasakan pada aspek ekonomi dan masyarakat. Gangguan distribusi
+      tersebut memicu antrean panjang di stasiun pengisian bahan bakar, kelangkaan bensin di
+      beberapa daerah, serta kenaikan harga bahan bakar. Penelitian menunjukkan bahwa di
+      wilayah terdampak terjadi kenaikan harga rata-rata sekitar USD 0,04 per galon.
+    </p>
 
-  <p>
-    Selain itu, kurangnya segmentasi jaringan antara sistem teknologi informasi (IT) dan teknologi
-    operasional (OT) memungkinkan peretas bergerak secara lateral dan memperluas dampak serangan
-    di dalam jaringan perusahaan.
-  </p>
+    <p>
+      Dari sisi finansial, perusahaan mengalami kerugian yang signifikan, meliputi pembayaran
+      tebusan sebesar USD 4,3–4,4 juta, biaya pemulihan sistem, proses investigasi forensik,
+      waktu henti operasional (downtime), serta dampak terhadap reputasi perusahaan. Meskipun
+      demikian, DOJ berhasil menyita kembali sekitar 63,7 Bitcoin dengan nilai kurang lebih
+      USD 2,3 juta pada saat penyitaan.
+    </p>
+
+    <p>
+      Selain itu, insiden ini juga berdampak pada kebijakan dan regulasi, di mana pemerintah
+      Amerika Serikat memperketat aturan keamanan siber pada sektor infrastruktur kritikal
+      guna mencegah kejadian serupa di masa mendatang.
+    </p>
+
+    <h2>Penyebab</h2>
+    <p>
+      Serangan ransomware terhadap Colonial Pipeline terjadi akibat adanya kerentanan
+      keamanan siber dalam sistem perusahaan. Peretas memperoleh akses awal ke jaringan
+      perusahaan menggunakan kata sandi yang telah disusupi untuk akun Virtual Private
+      Network (VPN) yang sudah tidak aktif.
+    </p>
+
+    <p>
+      Kerentanan ini semakin fatal karena akun VPN tersebut tidak dilengkapi dengan
+      autentikasi multi-faktor (Multi-Factor Authentication/MFA). Tanpa MFA, peretas dapat
+      mengakses jaringan hanya dengan menggunakan kata sandi yang valid, meskipun kata sandi
+      tersebut telah bocor sebelumnya dan ditemukan di dark web.
+    </p>
+
+    <p>
+      Selain itu, kurangnya segmentasi jaringan antara sistem teknologi informasi (IT) dan
+      teknologi operasional (OT) memungkinkan peretas melakukan pergerakan lateral di dalam
+      jaringan perusahaan, sehingga ransomware dapat menyebar lebih luas.
+    </p>
+
+    <h2>Mitigasi Pencegahan</h2>
+    <p>
+      Untuk mengurangi risiko serangan ransomware, organisasi perlu menerapkan berbagai
+      langkah mitigasi dengan prioritas tinggi. Dari sisi teknis, penerapan autentikasi
+      multi-faktor (MFA) pada seluruh akses jarak jauh, seperti VPN dan akun administrator,
+      menjadi langkah wajib guna mencegah penyalahgunaan kredensial.
+    </p>
+
+    <p>
+      Selain itu, pemantauan kredensial secara berkala perlu dilakukan untuk mendeteksi
+      kebocoran data akun, disertai dengan rotasi kata sandi dan penonaktifan akun yang tidak
+      lagi digunakan. Penerapan segmentasi jaringan antara sistem IT dan OT juga penting untuk
+      membatasi pergerakan lateral penyerang.
+    </p>
+
+    <p>
+      Organisasi disarankan memiliki sistem pencadangan data secara offline atau terisolasi
+      (air-gapped) yang diuji secara berkala. Proses patching dan manajemen kerentanan harus
+      dilakukan secara rutin, dengan memprioritaskan pembaruan kritis. Penggunaan sistem
+      logging, endpoint detection and response (EDR), serta sistem deteksi intrusi diperlukan
+      untuk mempercepat identifikasi aktivitas mencurigakan.
+    </p>
+
+    <p>
+      Dari sisi kebijakan dan organisasi, diperlukan rencana respons insiden yang teruji dan
+      mencakup pembagian peran yang jelas antara tim teknis, komunikasi publik, serta koordinasi
+      dengan regulator. Latihan simulasi dan tabletop exercise secara berkala juga penting
+      untuk meningkatkan kesiapan organisasi.
+    </p>
+
+    <p>
+      Sebagai catatan kebijakan, pemerintah dan lembaga terkait umumnya tidak menganjurkan
+      pembayaran tebusan karena dapat mendorong aktivitas kriminal. Oleh karena itu,
+      organisasi perlu memiliki rencana mitigasi yang matang sejak awal dan melibatkan aparat
+      penegak hukum dalam penanganan insiden siber.
+    </p>
+    <h2>Disusun Oleh</h2>
+    <ol>
+        <li>Nur Laeli Septi Ningrum (22523028)</li>
+        <li>Bintang Jawara Cakranegara Lausepa (22523181)</li>
+        <li>Rida Widyandari (23523152)</li>
+        <li>Erfina Safitri (23523192)</li>
+    </ol>
+
+  </div>
 
 </body>
 </html>
